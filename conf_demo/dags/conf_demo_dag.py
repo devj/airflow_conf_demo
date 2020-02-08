@@ -8,7 +8,7 @@ import re
 
 from airflow import DAG
 
-from airflow.operators import BaseOperator
+from airflow.models import BaseOperator
 from airflow.operators.dummy_operator import DummyOperator
 from airflow.operators.python_operator import PythonOperator
 
